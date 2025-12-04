@@ -69,12 +69,12 @@ function App() {
 
 
   return (
-    <div className="bg-stone-900 text-stone-300 h-screen p-4">
+    <div className="bg-stone-950 text-stone-300 h-screen p-4">
       <div className='p-5 w-[70%] mx-auto '>
 
         <Header />
 
-        <div className='h-[80vh] bg-black rounded-2xl shadow-xl overflow-y-auto'>
+        <div className='h-[70vh] bg-black rounded-2xl shadow-xl overflow-y-auto'>
 
           {/* <HomeScript />
            */}
