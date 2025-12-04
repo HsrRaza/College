@@ -48,7 +48,7 @@ export default function Message({ role, content }) {
 
   return (
     <div
-      className={`p-3 rounded-xl max-w-2xl whitespace-pre-wrap text-2xl text-stone-300 ${
+      className={`p-3 rounded-xl max-w-2xl whitespace-pre-wrap text-xl text-stone-300 ${
         role === "user"
           ? "bg-stone-600 self-end ml-auto"
           : "bg-stone-800"
